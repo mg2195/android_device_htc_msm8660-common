@@ -431,6 +431,6 @@ struct msmfb_mixer_info_req {
  int cnt;
  struct mdp_mixer_info info[MAX_PIPE_PER_MIXER];
 };
+#define MSMFB_OVERLAY_COMMIT  _IOW(MSMFB_IOCTL_MAGIC, 163, unsigned int)
 /* WARNING: DO NOT EDIT, AUTO-GENERATED CODE - SEE TOP FOR INSTRUCTIONS */
 #endif
-
